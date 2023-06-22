@@ -4,7 +4,7 @@ Modal is a dialog that appears on top of the main window. It is used to display 
 
 We have already created several modals. You can use them easily anywhere in the project.
 
-## Basic example
+### Use
 
 ```js
 import Modal from "@/components/Modal";

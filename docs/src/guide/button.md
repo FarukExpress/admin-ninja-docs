@@ -2,7 +2,7 @@
 
 Button is a component that can be used to trigger an action or event, such as submitting a form, opening a dialog, canceling an action, or performing a delete operation.
 
-## Use
+### Use
 
 ```js
 import Button from "@/components/Button";
