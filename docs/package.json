@@ -1,0 +1,19 @@
+{
+  "name": "admin-ninja-docs",
+  "version": "0.0.1",
+  "description": "The fastest way to get your VuePress project set up is to use",
+  "main": "index.js",
+  "authors": {
+    "name": "mahedi",
+    "email": "mahedi5544@gmail.com"
+  },
+  "repository": "/admin-ninja-docs",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
