@@ -1,102 +1,75 @@
 # Folder Structure React Js
 
-Understand the folder structure of the template and what the template contains.
+To effectively work with the Ninja Admin Template, it's important to understand its folder structure and the contents it includes.
 
-## Step-1 : Root Structure
+## Root Structure
 
-The `root` folder contains the core code of this application. The DashCode folder structure looks like this.
+The `root` folder serves as the core of the application. It follows the following structure:
 
-```
-.
-├─ src
-│  ├─ assets
-│  │  ├─ images
-│  │  ├─ scss
-│  ├─ components
-│  │  ├─ partials
-│  │  ├─ ui
-│  │  ├─ widgets
-│  ├─ constant
-│  |  ├─ data.js
-│  |  ├─ appex-chart.js
-│  |  ├─ chartjs-data.js
-│  |
-│  ├─ config
-│  ├─ Layout
-│  ├─ hooks
-│  ├─ store
-│  ├─ pages
-│  │  ├─ dashboard
-│  │  ├─ components
-│  │  ├─ chart
-|  |- App.jsx
-│  ├─ main.jsx
-|
-├─ favicon.svg
-├─ index.html
-├─ .gitignore
-├─ package.json
-├─ README.md
-|- postcss.config.js
-|- tailwind.config.js
-|- vite.config.js
-│
-│
-└─ package.json
-```
+- `src`: Contains the main source code of the application.
+  - `assets`: Holds various assets like images and SCSS files.
+    - `images`: Directory for image assets.
+    - `scss`: Directory for SCSS files.
+  - `components`: Houses all the components used in the template.
+    - `partials`: Contains reusable partial components.
+    - `ui`: Includes UI components.
+    - `widgets`: Contains widget components.
+  - `mocks`: Contains constant-related files.
+    - `data.js`: File for data constants.
+    - `appex-chart.js`: File for AppEx chart constants.
+    - `chartjs-data.js`: File for Chart.js data constants.
+  - `server`: contains fake api.
+  - `config`: Holds configuration files.
+  - `Layout`: Contains layout-related files.
+  - `hooks`: Directory for custom hooks.
+  - `store`: Contains Redux Toolkit store files.
+  - `pages`: Holds the different pages or views of the application.
+    - `dashboard`: Contains files related to the dashboard page.
+    - `components`: Contains files related to the components page.
+    - `chart`: Contains files related to the chart page.
+  - `App.jsx`: Main application component.
+  - `main.jsx`: Entry point file.
 
-## Step-2 : Assets
+Additionally, you'll find other files at the root level:
 
-The assets folder contains logos and other static assets. You can place your static assets here.
+- `favicon.svg`: Favicon image file.
+- `index.html`: HTML file for the application.
+- `.gitignore`: File specifying Git ignored files and directories.
+- `package.json`: File containing project metadata and dependencies.
+- `README.md`: Documentation file.
+- `postcss.config.js`: Configuration file for PostCSS.
+- `tailwind.config.js`: Configuration file for Tailwind CSS.
+- `vite.config.js`: Configuration file for Vite.
 
-## Step-3 : Components
+## Working with Assets
 
-Place your components in the `components` folder. Each component should be placed in its own folder. The folder name should be the name of the component.
+The `assets` folder is where you can store logos and other static assets that your application requires.
 
-```
+## Components
 
-├─ Components
-│  ├─ partials
-│  │  ├─ Header
-│  │  │  ├─ index.jsx
-│  │
-│  ├─ ui
-│  │  ├─ Button
-│  │  ├─ Card
-│  │  ├─ Dropdown
-```
+The `components` folder is where you should place your reusable components. Each component should have its own folder with the component's name. For example:
 
-::: details How do I use components?
-In your `App.js` file, you can import your components like this:
+- `partials/Header/index.jsx`: Header component.
+- `ui/Button`: Button component.
+- `ui/Card`: Card component.
+- `ui/Dropdown`: Dropdown component.
 
-```js
-import Button from "@/components/ui/Button";
-import Card from "@/components/ui/Card";
+To use these components, import them into your `App.js` file or other relevant files.
 
-const App = () => {
-  return (
-    <div>
-      <Button />
-      <Card />
-    </div>
-  );
-};
-```
+## Layouts
 
-:::
+The `Layout` folder contains the layout files for your application. You can add new layouts here or modify existing ones.
 
-## Step-4 : Layout
+## Pages
 
-The `Layout` folder contains the layouts of this application. You can place any new layout here.
+The `pages` folder is where you'll find the different views or pages of your application. You can add new views here or modify existing ones.
 
-## Step-6 : Pages
+## Store
 
-The `pages` folder contains the views of this application. You can place new views here.
+The `store` folder contains Redux Toolkit store files for managing application state using Redux. You can use this folder to organize your Redux-related code.
 
-## Step-7 : Store
+## Constants
 
-The store folder contains the redux-toolkit store files of this application. You can use this folder to store your redux-toolkit files.
+The `constants` folder is where you can define and store your constants. You can place your constant-related files here.
 
-## Step-8 : Constants
-
-Define your constants in the `constants` folder. You can place your constants here.
+Feel free to customize the text further or let me know if you have any other specific requirements!

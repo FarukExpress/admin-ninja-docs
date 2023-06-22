@@ -1,24 +1,28 @@
 # Layout
 
-Understanding template layouts will help you create a page with your desired layout.
+Understanding the different layouts used in a template can help you create pages with your desired structure and design.
 
-## Default Layout
+## Auth Layout
 
-The default layout is the layout for all pages which do not require authentication. It is a simple layout that does not include any header, footer, and sidebar.
+The default layout is used for pages that do not require authentication. It is a simple layout without a header, footer, or sidebar.
 
-#### Usage
+### Usage
 
 ```jsx
-<div>
-  <div>
-    <main>lorem</main>
-  </div>
-</div>
+const AuthLayout = () => {
+  return (
+    <div>
+      <div>
+        <main>{/* Content goes here */}</main>
+      </div>
+    </div>
+  );
+};
 ```
 
 ## App Layout
 
-The app layout is the default layout for all pages which are inside the dashboard. It is a simple layout that includes a header, footer, sidebar, and customizer.
+The app layout is the default layout for pages within the dashboard. It includes a header, footer, sidebar, and customizer.
 
 #### Usage
 
@@ -27,13 +31,13 @@ import Header from "@/components/partials/Header";
 import Footer from "@/components/partials/Footer";
 import Sidebar from "@/components/partials/Sidebar";
 
-const Layout = () => {
+const AppLayout = () => {
   return (
     <div>
       <Header />
       <Sidebar />
       <div className="content-wrapper">
-        <main>lorem</main>
+        <main>{/* Content goes here */}</main>
       </div>
       <Footer />
     </div>

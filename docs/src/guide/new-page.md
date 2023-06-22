@@ -36,7 +36,7 @@ Go to `src/constant` file and add the page to the `menuItems` array.
 ```js
 {
     title: "About",
-    icon: "heroicons-outline:user",
+    icon: "ph-outline:user",
     link: "email",
 },
 

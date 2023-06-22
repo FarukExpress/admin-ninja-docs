@@ -1,58 +1,58 @@
-# Installation
+# Installation Guide
 
-DasCode admin template is built using Webpack. Webpack is nicely documented to start. You don't need to install or configure tools like Webpack or Babel. Vite is a new breed of frontend build tooling that significantly improves the frontend development experience.
+To start using the Ninja Admin Template, follow these installation steps:
 
 ## Prerequisite
 
----
+Make sure you have the following tools installed on your system:
 
 - [Node.js](https://nodejs.org/en/) (>= 14.0.0)
 - [Yarn](https://yarnpkg.com/en/) (>= 1.5.1)
 - [NPM](https://www.npmjs.com/) (>= 5.5.1)
 
-::: details How do I check my node version?
-Run below command in your terminal:
+::: details How to check Node.js version
+Open your terminal and run the following command:
 
 ```sh
 node -v
 ```
 
-Make sure output version is LTS version.
+Ensure that the displayed version is the LTS version.
 
 :::
 
-::: details How do I check my npm version?
-Run below command in your terminal:
+::: details How to check NPM version
+Open your terminal and run the following command:
 
 ```sh
 npm -v
 ```
 
-Make sure output version is LTS version.
+Ensure that the displayed version is the LTS version.
 
 :::
 
 ::: tip
-Yarn package manager is recommended
+We recommend using the Yarn package manager.
 :::
 
-## Step. 1: Getting started
+## Getting started
 
-1. Download our DashCode - Admin Dashboard Template from your ThemeForest account.
-2. After downloading zip from ThemeForest, select the version that you want to work with. Unzip your selected version in your desired location.
-3. Open this folder in console / terminal
-4. Run below commands:
+1. Download the Ninja Admin Dashboard Template from your ThemeForest account.
+2. Once downloaded, unzip the file and choose the version you wish to work with.
+3. Open your desired version's folder in the console or terminal.
+4. Run the following commands:
 
    ```sh
-   # It will install all packages
+    # Install all the required packages
    yarn install
 
-   # It will start the development server
+   # Start the development server
    yarn dev
    ```
 
    ::: warning
-   If you are using an older node version and getting errors while installing the app then run the command "yarn install --ignore-engines" command instead of "yarn install"
+   If you encounter errors during installation due to using an older version of Node.js, use the command "yarn install --ignore-engines" instead of "yarn install".
    :::
 
 5. Open `http://localhost:5173` in your browser

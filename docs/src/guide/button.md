@@ -40,7 +40,7 @@ Just add an extra class `rounded-[999px]` to the className for a rounded button.
 :::
 
 ::: info Icon Buttons
-Just add an extra props `icon` to add and icon. For example: `icon="heroicons-outline:newspaper"`.
+Just add an extra props `icon` to add and icon. For example: `icon="ph-outline:newspaper"`.
 You can use `iconPosition="right"` props to move the icon on the right side.
 :::
 

@@ -1,64 +1,65 @@
 # Navigation Menu
 
-In this page you will learn how to add navigation items in vertical navigation & horizontal navigation.
+Learn how to add navigation items to the vertical and horizontal menus.
 
 - [Vertical Menu](#verticalmenu)
 - [Horizontal Menu](#horizontalmenu)
 
-## Vertical Menu {#verticalmenu}
+## Vertical Menu
 
-In order to add a navigation item in vertical menu, you need to add a new item in `menuItems` array in `constant/data.js` file.
+To add a navigation item to the vertical menu, follow these steps:
 
-```js
-export const menuItems = [
-  {
-    title: "Chat",
-    icon: "heroicons-outline:chat",
-    link: "chat",
-  },
+1. Open the `mocks/data.js` file.
 
-  {
-    title: "Email",
-    icon: "heroicons-outline:mail",
-    link: "email",
-  },
+2. Locate the menuItems array.
 
-  {
-    title: "Kanban",
-    icon: "heroicons-outline:view-boards",
-    link: "kanban",
-  },
-];
-```
+3. Add a new item to the array with the following properties:
 
-::: warning Note
-The `link` property should a route name from `App.jsx` file.
-:::
+- `title`: The title of the menu item.
+- `icon`: The icon for the menu item (you can use Phosphor for icons).
+- `link`: The route name from the App.jsx file that the menu item should link to.
 
-::: tip Tip
-You can use [Heroicons](https://iconify.design/) for icons.
-:::
-
-::: details How to add a menu label?
-You can add a menu label by adding a new item in `menuItems` array with `label` property.
+#### Example:
 
 ```js
 {
-    isHeadr: true,
-    title: "DASHBOARD",
-},
+  title: "Chat",
+  icon: "heroicons-outline:chat",
+  link: "chat",
+}
+```
+
+::: warning Note
+The `link` property should correspond to a route name defined in the `App.jsx` file.
+:::
+
+::: tip Tip
+Remember, you can customize the icons by choosing from the available options in [Phosphor](https://iconify.design/).
+
+:::
+
+::: details Adding a Menu Label
+To add a menu label, include a new item in the menuItems array with the label property.
+
+```js
+{
+  isHeader: true,
+  title: "DASHBOARD",
+}
 ```
 
 :::
 
-::: details How I add sub menu items?
+::: details Adding Sub Menu Items
+To add sub menu items, follow these steps
 
-You can add sub menu items by adding a new `child` property in the item object.
+1. Add a new child property to the parent item object in the menuItems array.
+2. Within the child array, define each sub menu item using the childtitle and childlink properties.
 
 ```js
 {
     title: "Dashboard",
-    icon: "heroicons-outline:home",
+    icon: "ph-outline:home",
     isOpen: true,
     child: [
         {
@@ -74,43 +75,54 @@ You can add sub menu items by adding a new `child` property in the item object.
 ```
 
 ::: warning Note
-The `childlink` property should be the same as the route name in `router.js` file.
-If you want to open the sub menu by default, you need to add `isOpen: true` property in the parent item object.
+The `childlink` property should correspond to a route name defined in the router.js file. To have a sub menu item open by default, include the isOpen: true property in the parent item object.
 
 :::
 
-## Horizontal Menu {#horizontalmenu}
+## Horizontal Menu
 
-In order to add a navigation item in horizontal menu, you need to add a new item in `topMenu` array in `constant/data.js` file.
+To add a navigation item to the horizontal menu, follow these steps:
+
+1. Open the `mocks/data.js` file.
+
+2. Locate the menuItems array.
+
+3. Add a new item to the array with the following properties:
+
+- `title`: The title of the menu item.
+- `icon`: The icon for the menu item (you can use Phosphor for icons).
+- `link`: The route name from the App.jsx file that the menu item should link to.
+
+#### Example:
 
 ```js
 export const topMenu = [
   {
     title: "Chat",
-    icon: "heroicons-outline:chat",
+    icon: "ph-outline:chat",
     link: "chat",
   },
 
   {
     title: "Email",
-    icon: "heroicons-outline:mail",
+    icon: "ph-outline:mail",
     link: "email",
   },
 
   {
     title: "Kanban",
-    icon: "heroicons-outline:view-boards",
+    icon: "ph-outline:view-boards",
     link: "kanban",
   },
 ];
 ```
 
 ::: warning Note
-The `link` property should a route name from `router.js` file.
+The `link` property should correspond to a route name defined in the `router.js` file.
 :::
 
 ::: tip Tip
-You can use [Heroicons](https://iconify.design/) for icons.
+You can use [iconify](https://iconify.design/) for icons.
 :::
 
 ::: details How I add sub menu items?
@@ -120,7 +132,7 @@ you can add sub menu items by adding a new `child` property in the item object.
 export const topMenu = [
   {
     title: "Dashboard",
-    icon: "heroicons-outline:home",
+    icon: "ph-outline:home",
     isOpen: true,
     child: [
       {

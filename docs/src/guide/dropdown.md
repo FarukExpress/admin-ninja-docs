@@ -45,7 +45,7 @@ You can also use `Button` component as a label. or any text or html element.
     <Button
     text="Custom Label"
     btnClass="btn-primary"
-    icon="heroicons-outline:chevron-right"
+    icon="ph-outline:chevron-right"
     iconPosition="right"
     div
     iconClass="text-lg"
@@ -71,7 +71,7 @@ You can use all props of [Button](button.html) component.
     <Button
       text="Custom Label"
       btnClass="btn-primary"
-      icon="heroicons-outline:chevron-right"
+      icon="ph-outline:chevron-right"
       iconPosition="right"
       div
       iconClass="text-lg"

@@ -1,6 +1,6 @@
 # Dependencies
 
-## Dev Dependencies
+### Dev Dependencies
 
 ::: danger
 The following dependencies are common and required to run the template. Do not try to remove any of these dependencies. You may add / update / remove any other dependencies according to your requirements.
@@ -20,7 +20,7 @@ The following dependencies are common and required to run the template. Do not t
 
 # Other Dependencies
 
-## Tailwind CSS
+### Tailwind CSS
 
 ::: tip
 Tailwind CSS is a utility-first CSS framework for rapidly building custom user interfaces. It is a highly customizable, low-level CSS framework that gives you all of the building blocks you need to build bespoke designs without any annoying opinionated styles you have to fight to override.
@@ -32,7 +32,7 @@ Tailwind CSS is a utility-first CSS framework for rapidly building custom user i
   }
 ```
 
-## Headless Ui
+### Headless Ui
 
 ::: tip
 Headless UI is a completely unstyled, fully accessible collection of UI components, designed to integrate beautifully with Tailwind CSS.
@@ -44,7 +44,7 @@ Headless UI is a completely unstyled, fully accessible collection of UI componen
   }
 ```
 
-## Full Calendar
+<!-- ### Full Calendar
 
 ::: tip
 FullCalendar is a feature-rich JavaScript event calendar. It is a full-sized drag & drop event calendar like the one below. It uses jQuery, moment, and the fullcalendar library.
@@ -59,9 +59,9 @@ FullCalendar is a feature-rich JavaScript event calendar. It is a full-sized dra
     "@fullcalendar/timegrid": "^5.10.2",
     "moment": "^2.29.1"
   }
-```
+``` -->
 
-## Charts
+### Charts
 
 ```js
 "dependencies": {
@@ -72,7 +72,7 @@ FullCalendar is a feature-rich JavaScript event calendar. It is a full-sized dra
   }
 ```
 
-## Form Validation
+### Form Validation
 
 ::: tip
 `React Hook Form` is a template-based validation framework for React. It is designed to handle heavy validation rules and keep your templates slim.
@@ -92,7 +92,7 @@ FullCalendar is a feature-rich JavaScript event calendar. It is a full-sized dra
   }
 ```
 
-## Icons
+### Icons
 
 ::: tip
 Iconify is a free and open-source icon library. It is a collection of more than 300,000 icons that can be used in any project. It is a free and open-source icon library. It is a collection of more than 300,000 icons that can be used in any project.
@@ -104,7 +104,7 @@ Iconify is a free and open-source icon library. It is a collection of more than 
   }
 ```
 
-## Table
+### Table
 
 `react-table` is a simple, lightweight, fast, and extensible data table for React. It is a simple, lightweight, fast, and extensible data table for React.
 
@@ -114,7 +114,7 @@ Iconify is a free and open-source icon library. It is a collection of more than 
   }
 ```
 
-## Date picker
+### Date picker
 
 ```js
 "dependencies": {
@@ -123,7 +123,7 @@ Iconify is a free and open-source icon library. It is a collection of more than 
   }
 ```
 
-## Map
+### Map
 
 ```js
 "dependencies": {
@@ -132,7 +132,7 @@ Iconify is a free and open-source icon library. It is a collection of more than 
   }
 ```
 
-## Toast
+### Toast
 
 ```js
 "dependencies": {
@@ -140,7 +140,7 @@ Iconify is a free and open-source icon library. It is a collection of more than 
   }
 ```
 
-## Tippy
+### Tippy
 
 ```js
 "dependencies": {
