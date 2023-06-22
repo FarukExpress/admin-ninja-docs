@@ -59,7 +59,14 @@ module.exports = {
         {
           title: "Development",
           collapsable: false,
-          children: ["installation", "folder-structure", "style", "layout"],
+          children: [
+            "installation",
+            "folder-structure",
+            "style",
+            "layout",
+            "navigation-menu",
+            "new-page",
+          ],
         },
       ],
     },
