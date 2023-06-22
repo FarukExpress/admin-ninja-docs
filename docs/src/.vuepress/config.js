@@ -68,6 +68,18 @@ module.exports = {
             "new-page",
           ],
         },
+        {
+          title: "Components",
+          collapsable: false,
+          children: [
+            "alert",
+            "button",
+            "card",
+            "modal",
+            "progressbar",
+            "table",
+          ],
+        },
       ],
     },
   },
