@@ -41,8 +41,8 @@ module.exports = {
         link: "/guide/",
       },
       {
-        text: "Config",
-        link: "/config/",
+        text: "Faq",
+        link: "/faq/",
       },
       {
         text: "VuePress",
@@ -78,7 +78,14 @@ module.exports = {
             "modal",
             "progressbar",
             "table",
+            "forms",
           ],
+        },
+
+        {
+          title: "OTHERS",
+          collapsable: false,
+          children: ["license", "credits", "thanks"],
         },
       ],
     },
