@@ -6,7 +6,7 @@ Just create a new `.js/jsx` file in `src/views` folder. For example you can use 
 If you want to create a new page then you need to add the page to the `src/App.jsx` file.
 :::
 
-## Step.1 : Creating a new page
+### Creating a new page
 
 Create a new `.js/jsx` file in the `src/pages` folder. You can use `src/about.jsx`.
 and add the page to the `src/App.js` file. in `Layout` component.
@@ -29,7 +29,7 @@ const About = () => {
 </Routes>
 ```
 
-## Step.2 : Adding a new page to the sidebar
+### Adding a new page to the sidebar
 
 Go to `src/constant` file and add the page to the `menuItems` array.
 

@@ -2,7 +2,7 @@
 
 Alert is a component that displays a message to the user.
 
-## Theme Color Alerts
+### Theme Color Alerts
 
 ```jsx
 import Alert from "@/components/Alert";
@@ -10,7 +10,7 @@ const Page = () => {
   return(
     <div>
       <Alert
-        label="This is an alert—check it out!"
+        label="This is simple alert"
         className="alert-primary"
       />
 
@@ -21,7 +21,8 @@ const Page = () => {
 ```
 
 ::: tip
-You can use `className` for alert type. Available types: `className="alert-primary"`, `className="alert-secondary"`, `className="alert-success"`, `className="alert-info"`, `className="alert-danger"`, `className="alert-warning"`,
+You can use `className` for alert type. Available Classes : `alert-primary`, `alert-secondary`, `alert-success`, `alert-info"`, `alert-danger"`, `alert-warning`.
+
 :::
 
 ::: tip Light Color Alerts
@@ -37,5 +38,5 @@ You can use `dismissible` props to make an alert dismissible.
 :::
 
 ::: tip Icon
-You can use `icon="fluent:target-20-regular` props to add an icon on the alert component.
+You can use `icon="ph:target-20-regular` props to add an icon on the alert component.
 :::
