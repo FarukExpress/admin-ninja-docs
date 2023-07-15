@@ -1,6 +1,6 @@
 # Folder Structure React Js
 
-To effectively work with the Ninja Admin Template, it's important to understand its folder structure and the contents it includes.
+To effectively work with the ElysianDash Admin Template, it's important to understand its folder structure and the contents it includes.
 
 ## Root Structure
 

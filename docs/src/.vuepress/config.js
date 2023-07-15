@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: "Vuepress Docs Boilerplate",
+  title: "ElysianDash",
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -40,13 +40,10 @@ module.exports = {
         text: "Guide",
         link: "/guide/",
       },
+
       {
-        text: "Faq",
-        link: "/faq/",
-      },
-      {
-        text: "VuePress",
-        link: "https://v1.vuepress.vuejs.org",
+        text: "Themforest",
+        link: "https://themeforest.net/user/phafex",
       },
     ],
     sidebar: {
@@ -54,7 +51,7 @@ module.exports = {
         {
           title: "Guide",
           collapsable: false,
-          children: ["", "getting-support", "dependencies", "github-access"],
+          children: ["", "getting-support", "dependencies"],
         },
         {
           title: "Development",

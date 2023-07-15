@@ -1,6 +1,6 @@
 # Installation Guide
 
-To start using the Ninja Admin Template, follow these installation steps:
+To start using the ElysianDash Admin Template, follow these installation steps:
 
 ## Prerequisite
 
@@ -38,7 +38,7 @@ We recommend using the Yarn package manager.
 
 ## Getting started
 
-1. Download the Ninja Admin Dashboard Template from your ThemeForest account.
+1. Download the ElysianDash Admin Dashboard Template from your ThemeForest account.
 2. Once downloaded, unzip the file and choose the version you wish to work with.
 3. Open your desired version's folder in the console or terminal.
 4. Run the following commands:

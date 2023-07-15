@@ -26,7 +26,7 @@ Never upload our package or modified version of our package on public sites wher
 
 ## Support Portal
 
-Once you have purchased our template, You can get support at our [support portal](https://codeshaperbd.freshdesk.com/support/home) by raising a support ticket.
+Once you have purchased our template, You can get support at our [support portal](#) by raising a support ticket.
 
 If you have any template related questions raise a support ticket with our Raising Support Ticket guide and use Ticket Template to create a perfect support ticket.
 

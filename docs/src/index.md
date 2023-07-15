@@ -1,7 +1,7 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
-tagline: Powerful and Versatile React, Vue 3 and Tailwind Admin Dashboard
+heroImage: null
+tagline: Powerful and Versatile React and Tailwind Admin Dashboard
 actionText: Get Started →
 actionLink: /guide/
 features:
@@ -19,5 +19,5 @@ features:
     details: Allows you to choose between light, dark, and semi-dark themes.
   - title: Multiple Layouts
     details: Switch between layouts to experience a whole new look and feel.
-footer: COPYRIGHT © 2022 Php, All rights reserved.
+footer: COPYRIGHT &copy; 2023-Present phafex, All rights Reserved.
 ---

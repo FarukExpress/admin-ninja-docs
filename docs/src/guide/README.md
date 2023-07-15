@@ -1,10 +1,10 @@
 # Welcome
 
-Thanks for purchasing our ninja - Admin Dashboard Template 🙂. Let's get you up and running.
+Thanks for purchasing our ElysianDash - Admin Dashboard Template 🙂. Let's get you up and running.
 
 ### How to use docs
 
-This is the documentation for the ninja React version. In this documentation, you will find guide that will help you to use, components, pages, cards, etc provided by our template.
+This is the documentation for the ElysianDash React version. In this documentation, you will find guide that will help you to use, components, pages, cards, etc provided by our template.
 
 ::: tip
 You can find Tailwind official documentation here [Tailwind](https://tailwindcss.com/docs/installation).
@@ -18,13 +18,13 @@ You can find React official documentation here [React](https://reactjs.org/).
 You can find Headlessui component's docs at their official [headlessui](https://headlessui.com/).
 :::
 
-Let's install your project first, please visit the [installation](installation.html) page for a detailed guide on how to install and run ninja.
+Let's install your project first, please visit the [installation](installation.html) page for a detailed guide on how to install and run ElysianDash.
 
 To get started you can check the [folder](development/folder-structure.html) structure of our template to understand how it works.
 
 Next, certainly, you want to create new pages and want to get started with your project, For this, you can check our Layout docs to understand how to use them. Certainly, the default layout is a zero-config layout but still if you want to understand each [layout](development/layout.html) type, Go for it.
 
-For styling, our ninja have managed to provide separate space for your style where you can write your style and don't accidentally delete ours. Make sure to check out Template Styles for it.
+For styling, our ElysianDash have managed to provide separate space for your style where you can write your style and don't accidentally delete ours. Make sure to check out Template Styles for it.
 
 ### Starter kit vs Full package
 
