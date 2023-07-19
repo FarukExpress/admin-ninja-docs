@@ -1,14 +1,14 @@
 ---
 home: true
-heroImage: null
-tagline: Powerful and Versatile React and Tailwind Admin Dashboard
+heroImage: "https://elysiandash.fariwali.com/demo-images/logo.svg"
+tagline: React Tailwind Admin Dashboard Template
 actionText: Get Started →
 actionLink: /guide/
 features:
   - title: Developer Friendly
     details: Specially built for developers to give them freedom while coding.
   - title: React and Tailwind
-    details: A perfect combination for web applications & full-stack development.
+    details: Modern admin template built with React and Tailwind, suitable for various use cases.
   - title: Vite
     details: Vite. js is a rapid development tool for modern web projects.
   - title: Clean Code
@@ -19,5 +19,5 @@ features:
     details: Allows you to choose between light, dark, and semi-dark themes.
   - title: Multiple Layouts
     details: Switch between layouts to experience a whole new look and feel.
-footer: COPYRIGHT &copy; 2023-Present phafex, All rights Reserved.
+footer: Copyright 2023 Phafex. All rights reserved..
 ---
